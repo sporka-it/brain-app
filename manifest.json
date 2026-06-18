@@ -3,6 +3,7 @@
   "short_name": "Мозг & Тело",
   "description": "Тренировки для гиппокампа — домашняя программа",
   "start_url": "/brain-app/index.html",
+  "scope": "/brain-app/",
   "display": "standalone",
   "background_color": "#0e0f14",
   "theme_color": "#0e0f14",

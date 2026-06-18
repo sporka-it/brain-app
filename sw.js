@@ -1,5 +1,11 @@
-const CACHE = 'brain-v1';
-const FILES = ['./index.html', './manifest.json', './icon-192.svg', './icon-512.svg'];
+const CACHE = 'brain-v2';
+const FILES = [
+  '/brain-app/',
+  '/brain-app/index.html',
+  '/brain-app/manifest.json',
+  '/brain-app/icon-192.svg',
+  '/brain-app/icon-512.svg'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
